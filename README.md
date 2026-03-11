@@ -3,8 +3,8 @@
 
 # btabler <img src='man/figures/logo.png' align="right" width="200">
 
-[![](https://img.shields.io/badge/dev%20version-0.0.4-blue.svg)](https://github.com/CTU-Bern/btabler)
-[![R-CMD-fullcheck](https://github.com/CTU-Bern/btabler/actions/workflows/R-CMD-full.yaml/badge.svg)](https://github.com/CTU-Bern/btabler/actions/workflows/R-CMD-full.yaml)
+[![](https://img.shields.io/badge/dev%20version-0.0.4-blue.svg)](https://github.com/dcr-unibe-ch/btabler)
+[![R-CMD-fullcheck](https://github.com/dcr-unibe-ch/btabler/actions/workflows/R-CMD-full.yaml/badge.svg)](https://github.com/dcr-unibe-ch/btabler/actions/workflows/R-CMD-full.yaml)
 
 `btabler` is a package which adds wraps the `xtable` package, adding
 additional functionality such as merging header columns.
@@ -16,10 +16,10 @@ Note that `btabler` does not produce HTML tables. If using `.Rmd`,
 
 ### Installing the package
 
-The package can be installed from the CTU Bern universe via
+The package can be installed from the DCR universe via
 
 ``` r
-install.packages('btabler', repos = 'https://ctu-bern.r-universe.dev')
+install.packages('btabler', repos = c('https://dcr-unibe-ch.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
 ### Using the package
